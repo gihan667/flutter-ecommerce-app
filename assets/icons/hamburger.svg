@@ -1,0 +1,14 @@
+<svg id="Component_6_1" data-name="Component 6 – 1" xmlns="http://www.w3.org/2000/svg" width="19.275" height="9.219" viewBox="0 0 19.275 9.219">
+  <g id="Group_922" data-name="Group 922" transform="translate(0 3.529)">
+    <line id="Line_42" data-name="Line 42" x2="17.115" transform="translate(1.08 1.08)" fill="#fff" stroke="#ff1031" stroke-width="1"/>
+    <path id="Path_1324" data-name="Path 1324" d="M905.65,530.4H888.178a1.1,1.1,0,0,1,0-2.16H905.65a1.1,1.1,0,0,1,0,2.16Z" transform="translate(-887.277 -528.241)" fill="#ff1031"/>
+  </g>
+  <g id="Group_923" data-name="Group 923">
+    <line id="Line_43" data-name="Line 43" x2="10.274" transform="translate(1.08 1.08)" fill="#fff" stroke="#ff1031" stroke-width="1"/>
+    <path id="Path_1325" data-name="Path 1325" d="M898.631,511.16H888.357a1.08,1.08,0,1,1,0-2.16h10.274a1.08,1.08,0,0,1,0,2.16Z" transform="translate(-887.277 -509)" fill="#ff1031"/>
+  </g>
+  <g id="Group_924" data-name="Group 924" transform="translate(6.84 7.059)">
+    <line id="Line_44" data-name="Line 44" x2="10.274" transform="translate(1.08 1.08)" fill="#fff" stroke="#ff1031" stroke-width="1"/>
+    <path id="Path_1326" data-name="Path 1326" d="M962.8,549.641H952.524a1.08,1.08,0,1,1,0-2.16H962.8a1.08,1.08,0,1,1,0,2.16Z" transform="translate(-951.444 -547.481)" fill="#ff1031"/>
+  </g>
+</svg>
