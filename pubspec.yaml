@@ -28,8 +28,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_svg: ^0.22.0 # Used to render svg images
-  google_fonts: ^2.1.0 # Used to include google fonts
+  flutter_svg: ^2.3.0 # this will help us to render svg images
+  google_fonts: ^8.1.0 # for google fonts
   flutter_rating_bar: ^4.0.0 # Used for show product star ratings
 
 dev_dependencies:

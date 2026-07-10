@@ -1,14 +1,9 @@
 import 'package:ecommerce_app/components/app_bar.dart';
-import 'package:ecommerce_app/components/card_body.dart';
 import 'package:ecommerce_app/components/main_body.dart';
-import 'package:ecommerce_app/components/product_card_bottom.dart';
 import 'package:ecommerce_app/components/rounded_icon_button.dart';
 import 'package:ecommerce_app/constants.dart';
-import 'package:ecommerce_app/models/category_model.dart';
-import 'package:ecommerce_app/models/products_model.dart';
 import 'package:ecommerce_app/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'components/best_selling_section.dart';
@@ -38,15 +33,12 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
         actions: [
-          InkWell(
-            onTap: () {},
-            child: Container(
-              padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
-              child: SvgPicture.asset(
-                'assets/icons/cart.svg',
-              ),
+          IconButton(
+            onPressed: () {  },
+            icon: SvgPicture.asset(
+              'assets/icons/cart.svg',
             ),
-          )
+          ),
         ],
       ),
       body: Container(
@@ -58,6 +50,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 35,
             ),
+
             Padding(
               padding: EdgeInsets.symmetric(horizontal: kDefaultPadding),
               child: Text(
@@ -69,13 +62,17 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
+
             SizedBox(
               height: 7,
             ),
-            SearchBar(),
+
+            SearchField(),
+
             SizedBox(
               height: 28,
             ),
+
             Expanded(
               child: MainBody(
                 child: SingleChildScrollView(
@@ -83,10 +80,13 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       CategorySection(),
+
                       SizedBox(
                         height: 30,
                       ),
+
                       ProductSlider(),
+
                       Padding(
                         padding: EdgeInsets.only(left: 42),
                         child: Text(
@@ -98,10 +98,13 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                       ),
+
                       SizedBox(
                         height: 10,
                       ),
+
                       BestSellingSection(),
+
                       SizedBox(
                         height: 30,
                       ),

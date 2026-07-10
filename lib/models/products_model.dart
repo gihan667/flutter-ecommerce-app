@@ -28,8 +28,7 @@ List<ProductModel> demoProducts = [
     price: 369,
     rating: 3,
     ratingCount: 89,
-    description:
-        'Studio orem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description: 'Studio orem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum is simply dummy text of the printing and typesetting industry.',
     images: [
       'assets/images/headphone1.png',
       'assets/images/headphone1.png',
@@ -61,8 +60,21 @@ List<ProductModel> bestSelling = [
     price: 299,
     rating: 4,
     ratingCount: 89,
-    description:
-        'Studio orem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description: 'Studio orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    images: [
+      'assets/images/headphone3.png',
+      'assets/images/headphone3.png',
+      'assets/images/headphone3.png',
+    ],
+  ),
+  ProductModel(
+    id: 3,
+    name: 'Studio 8 Wireless',
+    modelNo: 'Tionic-G80',
+    price: 399,
+    rating: 5,
+    ratingCount: 89,
+    description: 'Studio 8 orem Ipsum is simply dummy text of the printing and typesetting industry.',
     images: [
       'assets/images/headphone3.png',
       'assets/images/headphone3.png',
